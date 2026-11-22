@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Marvel Universe — MBA Presentation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Progress bar -->
+<div id="progress-bar"></div>
+<!-- Snap canvas for slide 6 -->
+<canvas id="snap-canvas"></canvas>
+
+<!-- ============================================================
+     PRESENTATION WRAPPER
+     ============================================================ -->
+<div id="presentation">
+
+  <!-- ══════════════════════════════════════════════════════
+       SLIDE 1 — INTRODUCTION
+       ══════════════════════════════════════════════════════ -->
+  <section class="slide active" id="slide-1" data-index="0">
+    <div class="slide-bg"
+         style="background-image:url('image copy.png');background-position:center top;">
+    </div>
+    <div class="slide-content">
+      <div class="marvel-badge">MARVEL STUDIOS</div>
+      <p class="slide-label">01 &nbsp;/&nbsp; Introduction</p>
+      <h1 class="slide-title">THE MARVEL<br><span>UNIVERSE</span></h1>
+      <div class="divider"></div>
+      <p class="slide-subtitle">From Comic Books to a Global Entertainment Empire</p>
+      <ul class="intro-facts">
+        <li>Founded in 1939</li>
+        <li>Home to Iconic Superheroes</li>
+        <li>Global Entertainment Powerhouse</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       SLIDE 2 — BUSINESS STRUCTURE
+       ══════════════════════════════════════════════════════ -->
+  <section class="slide" id="slide-2" data-index="1">
+    <div class="slide-bg"
+         style="background-image:url('image copy 2.png');background-position:center;background-color:#0a0000;">
+    </div>
+    <div class="slide-content">
+      <div class="marvel-badge">MARVEL STUDIOS</div>
+      <p class="slide-label">02 &nbsp;/&nbsp; Business Structure</p>
+      <h1 class="slide-title">HOW MARVEL<br><span>WORKS</span></h1>
+      <div class="divider"></div>
+      <div class="biz-grid">
+
+        <div class="biz-card">
+          <!-- Marvel Comics — stack of comic books -->
+          <img src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=400&h=240&fit=crop&crop=top&q=80"
+               alt="Marvel Comics"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="card-img-fallback" style="display:none">📚</div>
+          <h3>Marvel Comics</h3>
+          <p>The original source — over 80,000 characters across thousands of storylines since 1939.</p>
+        </div>
+
+        <div class="biz-card">
+          <!-- Marvel Studios — film / movie theatre -->
+          <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400&h=240&fit=crop&q=80"
+               alt="Marvel Studios"
+               onerror="this.style.display='none'">
+          <h3>Marvel Studios</h3>
+          <p>The MCU — 38+ blockbuster films generating over $35 billion worldwide.</p>
+        </div>
+
+        <div class="biz-card">
+          <!-- Marvel Games — gaming controller / setup -->
+          <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=400&h=240&fit=crop&q=80"
+               alt="Marvel Games"
+               onerror="this.style.display='none'">
+          <h3>Marvel Games</h3>
+          <p>Iconic video games, mobile apps and interactive experiences across all platforms.</p>
+        </div>
+
+        <div class="biz-card">
+          <!-- Consumer Products — merchandise / retail -->
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=240&fit=crop&q=80"
+               alt="Consumer Products"
+               onerror="this.style.display='none'">
+          <h3>Consumer Products &amp; Licensing</h3>
+          <p>$5B+ annual merchandise revenue — apparel, toys, collectibles and brand partnerships.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       SLIDE 3 — THE RISE OF MARVEL (Timeline)
+       ══════════════════════════════════════════════════════ -->
+  <section class="slide" id="slide-3" data-index="2">
+    <div class="slide-bg"
+         style="background-image:url('image copy 3.png');background-position:center;background-color:#0a0000;">
+    </div>
+    <div class="slide-content">
+      <div class="marvel-badge">MARVEL STUDIOS</div>
+      <p class="slide-label">03 &nbsp;/&nbsp; The Rise</p>
+      <h1 class="slide-title">THE RISE OF<br><span>AN EMPIRE</span></h1>
+      <div class="divider"></div>
+
+      <div class="timeline-wrap">
+        <div class="timeline-line"></div>
+        <div class="timeline-items">
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">1939</div>
+            <div class="tl-text">Marvel's<br>Beginnings</div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">1960s</div>
+            <div class="tl-text">Rise of Iconic<br>Superheroes</div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2008</div>
+            <div class="tl-text">Iron Man Launches<br>the MCU</div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2012</div>
+            <div class="tl-text">The Avengers<br>Assemble</div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2019</div>
+            <div class="tl-text">Avengers:<br>Endgame</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       SLIDE 4 — BUSINESS STRATEGY
+       ══════════════════════════════════════════════════════ -->
+  <section class="slide" id="slide-4" data-index="3">
+    <div class="slide-bg"
+         style="background-image:url('image copy 4.png');background-position:center;background-color:#0a0000;">
+    </div>
+    <div class="slide-content">
+      <div class="marvel-badge">MARVEL STUDIOS</div>
+      <p class="slide-label">04 &nbsp;/&nbsp; Strategy</p>
+      <h1 class="slide-title">THE SECRET BEHIND<br><span>MARVEL'S SUCCESS</span></h1>
+      <div class="divider"></div>
+
+      <div class="strategy-grid">
+        <div class="strategy-item">
+          <span class="strategy-icon">🛡️</span>
+          <div class="strategy-text">
+            <h3>Powerful Brand Identity</h3>
+            <p>Instantly recognisable characters trusted by billions worldwide across generations.</p>
+          </div>
+        </div>
+        <div class="strategy-item">
+          <span class="strategy-icon">🎬</span>
+          <div class="strategy-text">
+            <h3>Connected Movie Universe</h3>
+            <p>A shared narrative across 38+ films keeps audiences returning for every release.</p>
+          </div>
+        </div>
+        <div class="strategy-item">
+          <span class="strategy-icon">🌍</span>
+          <div class="strategy-text">
+            <h3>Global Marketing</h3>
+            <p>Localised campaigns, strategic release windows and massive digital engagement.</p>
+          </div>
+        </div>
+        <div class="strategy-item">
+          <span class="strategy-icon">💰</span>
+          <div class="strategy-text">
+            <h3>Merchandise &amp; Licensing</h3>
+            <p>Revenue streams beyond cinema — toys, apparel, games and theme park deals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       SLIDE 5 — FINANCIAL SUCCESS (Bar Chart)
+       ══════════════════════════════════════════════════════ -->
+  <section class="slide" id="slide-5" data-index="4">
+    <div class="slide-bg"
+         style="background-image:url('image copy.png');background-position:center bottom;background-color:#050000;">
+    </div>
+    <div class="slide-content">
+      <div class="marvel-badge">MARVEL STUDIOS</div>
+      <p class="slide-label">05 &nbsp;/&nbsp; Financial Success</p>
+      <h1 class="slide-title">MARVEL'S BOX<br><span>OFFICE POWER</span></h1>
+      <div class="divider"></div>
+
+      <div class="chart-wrap">
+        <p class="chart-label-top">★ Approximate Worldwide Box-Office Collections (USD)</p>
+        <div class="bar-list" id="bar-chart">
+          <!-- Bars injected by script.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       SLIDE 6 — THANK YOU (Iron Man Snap)
+       ══════════════════════════════════════════════════════ -->
+  <section class="slide" id="slide-6" data-index="5">
+    <div class="slide-bg"
+         style="background-image:url('image copy 5.png');background-position:center top;background-color:#050000;">
+    </div>
+    <div class="slide-content snap-wrap">
+      <div class="snap-title" id="snap-title">
+        <span class="word-thank">THANK</span>
+        <span class="word-you">YOU!</span>
+      </div>
+      <p class="snap-sub">I Am Iron Man &nbsp;•&nbsp; Marvel Studios &nbsp;•&nbsp; MBA Presentation</p>
+    </div>
+  </section>
+
+</div><!-- end #presentation -->
+
+<!-- Navigation -->
+<nav id="nav">
+  <button class="nav-btn" id="btn-prev">◀ PREV</button>
+  <span id="slide-counter">1 / 6</span>
+  <button class="nav-btn" id="btn-next">NEXT ▶</button>
+</nav>
+
+<p id="key-hint">← → Arrow keys to navigate</p>
+
+<script src="script.js"></script>
+</body>
+</html>
